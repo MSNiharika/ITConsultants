@@ -25,7 +25,7 @@ const About = () => (
       {/* Image / Visual */}
       <div className="relative">
         <img
-          src="src/image.png" // replace with your image path
+          src="src/assets/image.png" // replace with your image path
           alt="About Us Illustration"
           className="rounded-xl shadow-xl"
         />

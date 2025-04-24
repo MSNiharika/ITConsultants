@@ -7,7 +7,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-4">
-        <img src="src/arka.png" alt="Arka Logo" className="h-20 w-40" />
+        <img src="src/assets/arka.png" alt="Arka Logo" className="h-20 w-40" />
         </div>
 
         {/* Navigation */}
@@ -15,13 +15,13 @@ const Header = () => {
         <ul className="flex space-x-6 text-lg font-medium">
         {[
           { to: "/", label: "Home" },
-          { to: "/about", label: "About" },
           { to: "/courses", label: "Courses" },
           { to: "/trainers", label: "Trainers" },
           { to: "/placements", label: "Placements" },
           { to: "/testimonials", label: "Testimonials" },
           { to: "/contacts", label: "Contacts" },
           { to: "/services", label: "Services" },
+          { to: "/about", label: "About" },
         ].map((item) => (
           <li key={item.to}>
             <Link
