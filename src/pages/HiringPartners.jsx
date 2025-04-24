@@ -17,27 +17,27 @@ const HiringPartners = () => (
   <section className="py-12 bg-gray-100">
     <h2 className="text-3xl font-bold text-center text-blue-900 mb-8">Our Hiring Partners</h2>
     <Swiper
-  modules={[Autoplay]}
-  spaceBetween={30}
-  slidesPerView={5}
-  loop={true}
-  autoplay={{
-    delay: 2000,
-    disableOnInteraction: false,
-    pauseOnMouseEnter: true,
-  }}
-  breakpoints={{
-    320: { slidesPerView: 2 },
-    640: { slidesPerView: 3 },
-    1024: { slidesPerView: 5 },
-  }}
->
-  {logosForSwiper.map((logo, index) => (
-    <SwiperSlide key={index} className="flex items-center justify-center">
-      <img src={logo.src} alt={logo.alt} className="h-20 object-contain" />
-    </SwiperSlide>
-  ))}
-</Swiper>
+      modules={[Autoplay]}
+      spaceBetween={30}
+      slidesPerView={5}
+      loop={true}
+      autoplay={{
+        delay: 2000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      }}
+      breakpoints={{
+        320: { slidesPerView: 2 },
+        640: { slidesPerView: 3 },
+        1024: { slidesPerView: 5 },
+      }}
+    >
+      {logosForSwiper.map((logo, index) => (
+        <SwiperSlide key={index} className="flex items-center justify-center">
+          <img src={logo.src} alt={logo.alt} className="h-20 object-contain" />
+        </SwiperSlide>
+      ))}
+    </Swiper>
   </section>
 );
 

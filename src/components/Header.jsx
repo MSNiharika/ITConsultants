@@ -8,32 +8,34 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-4">
-        <img src={arkaLogo} alt="Arka Logo" className="h-20 w-40" />
+          <Link to="/">
+            <img src={arkaLogo} alt="Arka Logo" className="h-20 w-40 cursor-pointer" />
+          </Link>
         </div>
 
         {/* Navigation */}
         <nav className="space-x-6 text-blue-800 font-medium">
-        <ul className="flex space-x-6 text-lg font-medium">
-        {[
-          { to: "/", label: "Home" },
-          { to: "/courses", label: "Courses" },
-          { to: "/trainers", label: "Trainers" },
-          { to: "/placements", label: "Placements" },
-          { to: "/testimonials", label: "Testimonials" },
-          { to: "/contacts", label: "Contacts" },
-          { to: "/services", label: "Services" },
-          { to: "/about", label: "About" },
-        ].map((item) => (
-          <li key={item.to}>
-            <Link
-              to={item.to}
-              className="relative text-blue-800 hover:text-blue-600 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-blue-600 hover:after:w-full after:transition-all after:duration-300"
-            >
-              {item.label}
-            </Link>
-          </li>
-        ))}
-      </ul>
+          <ul className="flex space-x-6 text-lg font-medium">
+            {[
+              { to: "/", label: "Home" },
+              { to: "/courses", label: "Courses" },
+              { to: "/trainers", label: "Trainers" },
+              { to: "/placements", label: "Placements" },
+              { to: "/testimonials", label: "Testimonials" },
+              { to: "/contacts", label: "Contacts" },
+              { to: "/services", label: "Services" },
+              { to: "/about", label: "About" },
+            ].map((item) => (
+              <li key={item.to}>
+                <Link
+                  to={item.to}
+                  className="relative text-blue-800 hover:text-blue-600 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-blue-600 hover:after:w-full after:transition-all after:duration-300"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </nav>
       </div>
     </header>

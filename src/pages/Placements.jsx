@@ -2,13 +2,13 @@ import React from "react";
 import { FaBriefcase, FaBuilding, FaUserGraduate } from "react-icons/fa";
 
 const companies = [
-    "https://api.qspiders.com/media/clients/Capegemini_60.png", 
-    "http://api.qspiders.com/media/clients/Integra_Micro_Systems_chIzJjj.jpg",
-    "http://api.qspiders.com/media/clients/EFI_pdQaA6e.png",
-    "http://api.qspiders.com/media/clients/arisglobal-logo-new_0_ijEbzaU.png",
-    "http://api.qspiders.com/media/clients/allstate-logo-header-170x45_W9ycizB.png",
-    "http://api.qspiders.com/media/clients/Subex_3mL6EYk.jpg",
-  ];
+  "https://api.qspiders.com/media/clients/Capegemini_60.png",
+  "http://api.qspiders.com/media/clients/Integra_Micro_Systems_chIzJjj.jpg",
+  "http://api.qspiders.com/media/clients/EFI_pdQaA6e.png",
+  "http://api.qspiders.com/media/clients/arisglobal-logo-new_0_ijEbzaU.png",
+  "http://api.qspiders.com/media/clients/allstate-logo-header-170x45_W9ycizB.png",
+  "http://api.qspiders.com/media/clients/Subex_3mL6EYk.jpg",
+];
 
 const Placements = () => (
   <section className="py-20 px-4 bg-gradient-to-br from-sky-100 via-white to-blue-50">

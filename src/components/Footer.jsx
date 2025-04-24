@@ -93,13 +93,13 @@ const Footer = () => {
             <li className="flex items-center space-x-3">
               <FaPhoneAlt className="text-pink-400" />
               <a href="tel:+91 81061 10504" className="hover:underline">
-              +91 81061 10504
+                +91 81061 10504
               </a>
             </li>
             <li className="flex items-center space-x-3">
               <FaEnvelope className="text-pink-400" />
               <a href="mailto:niharikams.tcs@gmail.com" className="hover:underline">
-              niharikams.tcs@gmail.com
+                niharikams.tcs@gmail.com
               </a>
             </li>
           </ul>

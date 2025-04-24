@@ -11,16 +11,16 @@ const About = () => (
           Largest Software Training Organization
         </h2>
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-        We are a premier software training institute, committed to bridging the gap between industry expectations and academic knowledge. With strategically located centers in two key cities, we empower passionate learners with practical skills to build rewarding careers in the tech industry.
+          We are a premier software training institute, committed to bridging the gap between industry expectations and academic knowledge. With strategically located centers in two key cities, we empower passionate learners with practical skills to build rewarding careers in the tech industry.
         </p>
         <p className="italic text-gray-600 mb-8">
           “Empowering talent. Fulfilling dreams. Connecting businesses with future leaders.”
         </p>
         <Link to="/about-details">
-  <button className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300">
-    Learn More
-  </button>
-</Link>
+          <button className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300">
+            Learn More
+          </button>
+        </Link>
       </div>
 
       {/* Image / Visual */}
