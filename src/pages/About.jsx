@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import image from '../assets/image.png';
 
 const About = () => (
   <section className="py-20 bg-white">
@@ -25,7 +26,7 @@ const About = () => (
       {/* Image / Visual */}
       <div className="relative">
         <img
-          src="src/assets/image.png" // replace with your image path
+          src={image} // replace with your image path
           alt="About Us Illustration"
           className="rounded-xl shadow-xl"
         />
